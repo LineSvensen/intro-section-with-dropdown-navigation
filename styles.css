@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+body {
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    grid-area: header;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: -0.49px;
+    padding: 16px;
+}
+.main {
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .hero-image img {
+    width: 375px;
+    height: 281.25px;
+    text-align: center;
+}
+.main-text h2 {
+    color: #000000;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.main-text p {
+    display: flex;
+    text-align: center;
+    color: #686868;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.btn {
+    background-color: #000000;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 15px;
+    padding: 12px 20px 10px 24px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    width: 136px;
+    height: 48px;
+}
+.flex-container-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+
